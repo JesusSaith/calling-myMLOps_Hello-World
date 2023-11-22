@@ -11,7 +11,6 @@ jobs:
     container: adsoft/aiops:latest
     steps:
       - uses: actions/checkout@v2
-      
       - name: helloword 
         run: echo Hello, world!
       - name: run model 
