@@ -24,6 +24,7 @@ jobs:
         run: |
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
 
+
       - name: Download and run the Docker base image
         run: docker run -d --name serving_base tensorflow/serving
 
